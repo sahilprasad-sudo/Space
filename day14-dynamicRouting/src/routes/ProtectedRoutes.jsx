@@ -7,7 +7,7 @@ const ProtectedRoutes = ({children}) => {
 
     if(!isAdmin){
        return <Navigate to={'/home'}/>
-        console.log("Hey I'm Running")
+         console.log("Hey I'm Running")
     }
 
 
